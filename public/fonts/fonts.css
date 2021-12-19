@@ -1,0 +1,88 @@
+@media screen {
+  @font-face {
+    font-family: BrezelGrotesk;
+    src: url("https://www.noahapartments.com/static/fonts/BrezelGroteskWEB-Regular.woff2")
+        format("woff2"),
+      url("https://www.noahapartments.com/static/fonts/BrezelGroteskWEB-Regular.woff")
+        format("woff");
+    font-weight: 400;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: BrezelGrotesk;
+    src: url("https://www.noahapartments.com/static/fonts/BrezelGroteskWEB-Medium.woff2")
+        format("woff2"),
+      url("https://www.noahapartments.com/static/fonts/BrezelGroteskWEB-Medium.woff")
+        format("woff");
+    font-weight: 500;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: BrezelGrotesk;
+    src: url("https://www.noahapartments.com/static/fonts/BrezelGroteskWEB-Bold.woff2")
+        format("woff2"),
+      url("https://www.noahapartments.com/static/fonts/BrezelGroteskWEB-Bold.woff")
+        format("woff");
+    font-weight: 700;
+    font-style: normal;
+  }
+
+  @font-face {
+    font-family: "Tobias";
+    src: url("https://assets.website-files.com/61afb784667e4e0445236ec6/61afb784667e4e0390236ecb_Tobias-Regular.otf")
+      format("opentype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: "Gt walsheim";
+    src: url("https://assets.website-files.com/61afb784667e4e0445236ec6/61afb784667e4e63a4236ecd_GT-Walsheim-Bold.otf")
+      format("opentype");
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: "Gt walsheim";
+    src: url("https://assets.website-files.com/61afb784667e4e0445236ec6/61afb784667e4e9da3236ece_GT-Walsheim-Medium.otf")
+      format("opentype");
+    font-weight: 500;
+    font-style: normal;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: "Gt walsheim";
+    src: url("https://assets.website-files.com/61afb784667e4e0445236ec6/61afb784667e4e5c17236ed0_GT-Walsheim-Regular-Oblique.otf")
+      format("opentype");
+    font-weight: 400;
+    font-style: italic;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: "Gt walsheim";
+    src: url("https://assets.website-files.com/61afb784667e4e0445236ec6/61afb784667e4ea051236ecc_GT-Walsheim-Bold-Oblique.otf")
+      format("opentype");
+    font-weight: 700;
+    font-style: italic;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: "Gt walsheim";
+    src: url("https://assets.website-files.com/61afb784667e4e0445236ec6/61afb784667e4e3d1f236ecf_GT-Walsheim-Medium-Oblique.otf")
+      format("opentype");
+    font-weight: 500;
+    font-style: italic;
+    font-display: swap;
+  }
+  @font-face {
+    font-family: "Gt walsheim";
+    src: url("https://assets.website-files.com/61afb784667e4e0445236ec6/61afb784667e4e959b236ed1_GT-Walsheim-Regular.otf")
+      format("opentype");
+    font-weight: 400;
+    font-style: normal;
+    font-display: swap;
+  }
+}

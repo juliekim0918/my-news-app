@@ -1,21 +1,16 @@
 import React, { Component } from "react";
 import { render } from "react-dom";
+// import { HomeIcon } from "@heroicons/react/outline";
+import { Provider } from "react-redux";
 import "./input.css";
+import App from "./components/App";
+import store from "./store/index";
 
 const app = document.querySelector("#app");
 
-class Main extends Component {
-  constructor() {
-    super();
-  }
-
-  render() {
-    return (
-      <div className="md:container mx-auto bg-green-50 my-10 p-10 rounded-md">
-        <div className="">hello</div>
-      </div>
-    );
-  }
-}
-
-render(<Main />, app);
+render(
+  <Provider store={store}>
+    <App />
+  </Provider>,
+  app
+);
