@@ -6,6 +6,20 @@ const axios = require("axios");
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
+// GET all articles
+app.get("/articles", async (req, res, next) => {
+  try {
+    const {
+      data: { results },
+    } = await axios.get(
+      `https://api.nytimes.com/svc/news/v3/content/all/all.json?api-key=${api_key}`
+    );
+    res.send(results);
+  } catch (error) {
+    next(e);
+  }
+});
+
 // GET most viewed articles in last 30 days
 app.get("/articles/most-viewed", async (req, res, next) => {
   try {
@@ -19,6 +33,7 @@ app.get("/articles/most-viewed", async (req, res, next) => {
     next(e);
   }
 });
+
 
 // GET all articles by section
 app.get("/articles/:section", async (req, res, next) => {
